@@ -11,14 +11,14 @@ body {
 }
 
 .container{
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 30px 0;
 }
 
 main.container {
   display: flex;
-  gap: 40px; /* Espaço entre o profile e o conteúdo da rota */
+  gap: 100px; /* Espaço entre o profile e o conteúdo da rota */
   align-items: flex-start; /* Alinha os itens no topo */
 }
 
@@ -107,4 +107,29 @@ nav{
 
 .profile-infos a:hover {
   text-decoration: underline;
+}
+
+.profile-infos-item{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* About Me */
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e0e0e0;
+  color: #1f2937;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  line-height: 1.7;
+  text-align: justify;
 }
