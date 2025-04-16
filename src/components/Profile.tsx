@@ -11,7 +11,8 @@ export function Profile() {
 
       <div className="profile-infos">
         <a className="profile-infos-item" href="mailto:renanleitedacosta@gmail.com">
-          <MdEmail /> renanleitedacosta@gmail.com
+          <MdEmail /> 
+          renanleitedacosta@gmail.com
         </a>
 
         <a 
@@ -20,7 +21,8 @@ export function Profile() {
           target="_blank" 
           rel="noopener noreferrer"
         >
-          <FaLinkedin /> LinkedIn
+          <FaLinkedin /> 
+          LinkedIn
         </a>
 
         <a 
@@ -29,11 +31,13 @@ export function Profile() {
           target="_blank" 
           rel="noopener noreferrer"
         >
-          <FaGithub /> GitHub
+          <FaGithub /> 
+          GitHub
         </a>
 
         <span className="profile-infos-item">
-          <FaMapMarkerAlt /> Fortaleza, Ceará, Brasil
+          <FaMapMarkerAlt /> 
+          Fortaleza, Ceará, Brasil
         </span>
       </div>
 
