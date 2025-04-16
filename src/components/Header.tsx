@@ -8,7 +8,7 @@ export function Header() {
       <nav>
         <div className='container'>
           <Link to="/" className='nav-profile nav-item'>Renan Costa</Link>
-          <Link to="/resume" className='nav-item'>CV/Resume</Link>
+          <Link to="/resume" className='nav-item'>Currículo</Link>
           <Link to="/portfolio" className='nav-item'>Portfolio</Link>
         </div>
       </nav>
