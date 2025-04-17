@@ -31,22 +31,130 @@ export function Resume() {
           <li>
             <strong>Universidade Federal Rural do Semi-Árido – UFERSA | Novembro 2024</strong> <br />
             Engenharia de Software
+            <ul>
+              <li>
+                Metodologias Ágeis
+              </li>
+              <li>
+                Engenharia de Dados
+              </li>
+              <li>
+                Redes Neurais
+              </li>
+              <li>
+                Análise e Projeto de Sistemas
+              </li>
+            </ul>
           </li>
-          <ul>
-            <li></li>
-          </ul>
+          
         </ul>
 
         <ul>
           <li>
             <strong>Universidade Federal Rural do Semi-Árido – UFERSA | Novembro 2024</strong> <br />
             Tecnologia da Informação
+            <ul>
+              <li>
+                Banco de Dados
+              </li>
+              <li>
+                Cálculo e Estatística
+              </li>
+              <li>
+                Matemática e Geometria
+              </li>
+              <li>
+                Engenharia de Software
+              </li>
+            </ul>
           </li>
-          <ul>
-            <li></li>
-          </ul>
         </ul>
       </div>
+
+      <h1 className='title'>Habilidades</h1>
+
+      <div className='content'>
+        <ul>
+          <li>
+            <strong>Linguagens e Ferramentas de Análise:</strong>
+            <br />
+            Python (Pandas, NumPy, Matplotlib, Scikit-learn), SQL
+          </li>
+          <li>
+            <strong>Visualização e Apresentação de Dados:</strong>
+            <br />
+            Power BI, Tableau, Excel, PowerPoint
+          </li>
+          <li>
+            <strong>Estatística e Modelagem:</strong>
+            <br />
+            Estatística descritiva e inferencial, Modelagem de Dados
+          </li>
+          <li>
+            <strong>Outras Competências:</strong>
+            <br />
+            Pensamento Analítico, Comunicação de Insights, Git
+          </li>
+          <li>
+            <strong>Conhecimentos Complementares:</strong>
+            <br />
+            Desenvolvimento de APIs com Django e Spring Boot
+          </li>
+        </ul>
+      </div>
+
+      <h1 className='title'>Idiomas</h1>
+
+      <div className='content'>
+        <ul>
+          <li><strong>Português:</strong> Nativo</li>
+          <li><strong>Inglês:</strong> Intermediário (B2)</li>
+        </ul>
+      </div>
+
+      <h1 className='title'>Certificados</h1>
+
+      <div className='content'>
+        <ul>
+          <li>
+            <strong>
+              <a 
+              href="https://www.coursera.org/account/accomplishments/verify/4YGCOV60XD2K"
+              target="_blank" 
+              >
+                Ask Questions to Make Data-Driven Decisions
+                </a> | Abril 2025
+              </strong>
+            <br />
+            Google
+          </li>
+          <li>
+            <strong>
+              <a 
+              href="https://www.credly.com/badges/574e6071-7ccf-461c-8844-6f4896b47a00"
+              target="_blank" 
+              >
+                Data Analytics Essentials
+                </a> | Março 2025
+              </strong>
+            <br />
+            Cisco Networking Academy
+          </li>
+          <li>
+            <strong>
+              <a 
+              href="https://www.coursera.org/account/accomplishments/verify/QPN2L4LJZSZ7"
+              target="_blank" 
+              >
+                Connect and Protect: Networks and Network Security
+                </a> | Fevereiro 2025
+              </strong>
+            <br />
+            Google
+          </li>
+        </ul>
+      </div>
+
     </div>
   );
 }

@@ -25,6 +25,9 @@ main.container {
 .profile-container {
   flex-shrink: 0; /* Impede o profile de encolher */
   width: 250px; /* Ou o tamanho que preferir */
+  position: sticky;
+  top: 0;
+  padding-top: 0.7rem;
 }
 
 .route-content {
@@ -115,7 +118,7 @@ nav{
   gap: 0.5rem;
 }
 
-/* About Me */
+/* Content */
 
 .title {
   font-size: 2rem;
@@ -132,4 +135,17 @@ nav{
   gap: 0.7rem;
   line-height: 1.7;
   text-align: justify;
+}
+
+.content ul li {
+  margin-bottom: 0.5rem;
+}
+
+.content a {
+  text-decoration: none;
+  color: black;
+}
+
+.content a:hover {
+  text-decoration: underline;
 }
