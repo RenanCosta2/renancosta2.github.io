@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaMapMarkerAlt } from 'react-icons/fa';
 
 export function Profile() {
   return (
-    <div className='profile'>
+    <section className='profile'>
       <img className='profile-img' src="/images/profile.jpg" alt="Profile" />
       <h1 className='profile-name'>Renan Costa</h1>
       <h2 className='profile-role'>Analista de Dados</h2>
@@ -41,6 +41,6 @@ export function Profile() {
         </span>
       </div>
 
-    </div>
+    </section>
   );
 }

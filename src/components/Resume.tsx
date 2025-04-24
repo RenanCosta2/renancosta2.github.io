@@ -2,7 +2,7 @@ import React from 'react';
 
 export function Resume() {
   return (
-    <div>
+    <section>
       <h1 className='title'>Experiência</h1>
 
       <div className='content'>
@@ -155,6 +155,6 @@ export function Resume() {
         </ul>
       </div>
 
-    </div>
+    </section>
   );
 }
