@@ -7,6 +7,7 @@ import { Portfolio } from './components/Portfolio';
 import { AboutMe } from './components/AboutMe';
 import { Profile } from './components/Profile';
 import './App.css';
+import ProjectDetail from './components/ProjectDetail';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<AboutMe />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/portfolio/:slug" element={<ProjectDetail  />} />
         </Routes>
       </div>
       </main>
