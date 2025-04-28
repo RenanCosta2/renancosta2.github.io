@@ -9,9 +9,8 @@ type Props = {
 export function ProjectCard({ project }: Props) {
   return (
     <div className="project">
-      <Link to={`/portfolio/${project.slug}`}>
+      <Link to={`/portfolio/${project.slug}`} className='link'>
         <img src={project.imagem} alt={project.titulo} className="project-img" />
-      </Link>
 
       <div>
         <h2 className="project-title">{project.titulo}</h2>
@@ -24,6 +23,7 @@ export function ProjectCard({ project }: Props) {
           ))}
         </div>
       </div>
+      </Link>
     </div>
   );
 }
