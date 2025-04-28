@@ -381,6 +381,12 @@ nav {
   background-color: #5e4db5;
 }
 
+.project-detail-powerbi-title {
+  font-size: 1.5rem;
+  color: #7f5af0;
+  margin-top: 2rem;
+}
+
 .project-detail-powerbi iframe {
   margin-top: 2rem;
   border-radius: 12px;
