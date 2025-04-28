@@ -98,7 +98,11 @@ export function Resume() {
           <ul>
             <li className="resume-item">
               <strong>
-                <a href="https://www.coursera.org/account/accomplishments/verify/4YGCOV60XD2K" target="_blank">
+                <a 
+                href="https://www.coursera.org/account/accomplishments/verify/4YGCOV60XD2K" 
+                target="_blank"
+                rel="noopener noreferrer"
+                >
                   Ask Questions to Make Data-Driven Decisions
                 </a> | Abril 2025
               </strong>
@@ -106,7 +110,11 @@ export function Resume() {
             </li>
             <li className="resume-item">
               <strong>
-                <a href="https://www.credly.com/badges/574e6071-7ccf-461c-8844-6f4896b47a00" target="_blank">
+                <a 
+                href="https://www.credly.com/badges/574e6071-7ccf-461c-8844-6f4896b47a00" 
+                target="_blank"
+                rel="noopener noreferrer"
+                >
                   Data Analytics Essentials
                 </a> | Março 2025
               </strong>
@@ -114,7 +122,11 @@ export function Resume() {
             </li>
             <li className="resume-item">
               <strong>
-                <a href="https://www.coursera.org/account/accomplishments/verify/QPN2L4LJZSZ7" target="_blank">
+                <a 
+                href="https://www.coursera.org/account/accomplishments/verify/QPN2L4LJZSZ7" 
+                target="_blank"
+                rel="noopener noreferrer"
+                >
                   Connect and Protect: Networks and Network Security
                 </a> | Fevereiro 2025
               </strong>
