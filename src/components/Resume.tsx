@@ -99,6 +99,18 @@ export function Resume() {
             <li className="resume-item">
               <strong>
                 <a 
+                href="https://www.coursera.org/account/accomplishments/verify/IXEORF6IZM23" 
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                  Prepare Data for Exploration
+                </a> | Abril 2025
+              </strong>
+              <br />Google
+            </li>
+            <li className="resume-item">
+              <strong>
+                <a 
                 href="https://www.coursera.org/account/accomplishments/verify/4YGCOV60XD2K" 
                 target="_blank"
                 rel="noopener noreferrer"
