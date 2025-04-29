@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub, FaMapMarkerAlt } from 'react-icons/fa';
 export function Profile() {
   return (
     <section className='profile'>
-      <img className='profile-img' src="/images/profile.jpg" alt="Profile" />
+      <img className='profile-img' src="/images/profile.png" alt="Profile" />
       <h1 className='profile-name'>Renan Costa</h1>
       <h2 className='profile-role'>Analista de Dados</h2>
 
