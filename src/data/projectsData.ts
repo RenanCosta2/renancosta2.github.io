@@ -5,13 +5,29 @@ export type Project = {
   titulo: string;
   objetivo: string;
   requisitos: string[] | undefined;
-  tags: string[]; // antes era `tipo: string`
+  tags: string[];
   documentacao: string;
   externalLink?: string;
   slug: string;
 };
 
 export const projects: Project[] = [
+  {
+    imagem: "/images/projects/mercado-acoes.png",
+    titulo: "Análise Histórica de Ações (2020–2025): IBM, Microsoft, Oracle, Tesla e Walmart",
+    objetivo: "O projeto desenvolvido no Power BI tem como objetivo oferecer uma visão estratégica do comportamento do mercado de ações de cinco empresas selecionadas (IBM, Microsoft, Oracle, Tesla e Walmart), permitindo análises detalhadas ao longo do tempo. Os dados analisados abrangem o período de 25 de abril de 2020 até 25 de abril de 2025, garantindo uma visão histórica consistente dos últimos cinco anos. O dashboard possibilita responder perguntas-chave como o total de volume negociado, médias mensais dos valores de abertura, máximos, mínimos e fechamento das ações, além da variação da média de fechamento mês a mês. Também conta com recursos de filtragem por empresa ou combinação de empresas, e utiliza Narrativa Inteligente para destacar padrões e tendências nos dados, com uma apresentação visual formatada e acessível.",
+    requisitos: [
+      "Obter o total de volume negociado de ações ao longo do tempo para as 5 empresas analisadas.",
+      "Calcular o valor médio de abertura (Open), mais alto (High), mais baixo (Low), de fechamento (Close) e do Volume das ações de todas as empresas, para todos os meses do período analisado (5 anos).",
+      "Calcular a variação da média do valor de fechamento (Close) das ações de todas as empresas ao longo do tempo, mês a mês.",
+      "Explicar as principais características e tendências nos dados.",
+      "Deve ser possível realizar a análise para uma única empresa ou uma combinação de empresas."
+    ],
+    tags: ["Power BI", "Python"],
+    slug: "dashboard-mercado-acoes",
+    documentacao: "https://github.com/RenanCosta2/mercado-acoes-powerbi/blob/main/README.md",
+    externalLink: "https://app.powerbi.com/view?r=eyJrIjoiNGUwYTA0MDctMmE4NS00Y2MxLTkzODktYjVjMzZhOTViOTRjIiwidCI6ImJhZTkwYjYxLTg4OTItNDQyMC1hMTEyLTE0NTQ4MzBkYmJiOSJ9",
+  },
   {
     imagem: "/images/projects/RH.png",
     titulo: "Dashboard de RH",
