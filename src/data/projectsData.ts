@@ -30,7 +30,7 @@ export const projects: Project[] = [
   },
   {
     imagem: "/images/projects/RH.png",
-    titulo: "Dashboard de RH",
+    titulo: "Análise de dados de RH",
     objetivo: "O projeto desenvolvido no Power BI tem como objetivo oferecer uma visão estratégica do setor de Recursos Humanos da empresa, facilitando a análise e o acompanhamento de informações relevantes sobre os colaboradores. O Dashboard permite responder perguntas-chave de negócio, como o total de funcionários, tempo médio de experiência, distribuição por gênero e função, média salarial, disponibilidade para hora extra e níveis de envolvimento no trabalho.",
     requisitos: [
       "Obter o total atual de funcionários ativos na empresa.",
@@ -49,7 +49,7 @@ export const projects: Project[] = [
   },
   {
     imagem: "/images/projects/marketing.png",
-    titulo: "Dashboard de Marketing",
+    titulo: "Análise de dados de Marketing",
     objetivo: "Este projeto tem como objetivo apresentar métricas gerais sobre a percepção do cliente, seu comportamento de compra, a performance das campanhas de marketing desenvolvidas e os padrões de consumo por ponto de venda (país).",
     requisitos: [
       "Obter o total de clientes analisados.",
