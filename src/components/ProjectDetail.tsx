@@ -30,15 +30,15 @@ const ProjectDetail = () => {
       )}
 
       {/* Link para a documentação */}
-      {project.documentacao && (
+      {project.repositorio && (
         <div className='project-detail-doc'>
           <a
-            href={project.documentacao}
+            href={project.repositorio}
             target="_blank"
             className='project-detail-doc-link'
             rel="noopener noreferrer"
           >
-            <button className="doc-button">Acessar Documentação</button>
+            <button className="doc-button">Acessar Projeto</button>
           </a>
         </div>
       )}

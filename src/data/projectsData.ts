@@ -6,7 +6,7 @@ export type Project = {
   objetivo: string;
   requisitos: string[] | undefined;
   tags: string[];
-  documentacao: string;
+  repositorio: string;
   externalLink?: string;
   slug: string;
 };
@@ -25,7 +25,7 @@ export const projects: Project[] = [
     ],
     tags: ["Power BI", "Python"],
     slug: "dashboard-mercado-acoes",
-    documentacao: "https://github.com/RenanCosta2/mercado-acoes-powerbi/blob/main/README.md",
+    repositorio: "https://github.com/RenanCosta2/mercado-acoes-powerbi/blob/main/README.md",
     externalLink: "https://app.powerbi.com/view?r=eyJrIjoiNGUwYTA0MDctMmE4NS00Y2MxLTkzODktYjVjMzZhOTViOTRjIiwidCI6ImJhZTkwYjYxLTg4OTItNDQyMC1hMTEyLTE0NTQ4MzBkYmJiOSJ9",
   },
   {
@@ -44,7 +44,7 @@ export const projects: Project[] = [
     ],
     tags: ["Power BI"],
     slug: "dashboard-rh",
-    documentacao: "https://github.com/RenanCosta2/rh-powerbi/blob/main/README.md",
+    repositorio: "https://github.com/RenanCosta2/rh-powerbi/blob/main/README.md",
     externalLink: "https://app.powerbi.com/view?r=eyJrIjoiNzE1NTIyMzUtZDQ1OS00MzE4LTk0NTItZjhmNjJkMzlhNWQzIiwidCI6ImJhZTkwYjYxLTg4OTItNDQyMC1hMTEyLTE0NTQ4MzBkYmJiOSJ9",
   },
   {
@@ -69,7 +69,7 @@ export const projects: Project[] = [
     ],
     tags: ["Power BI"],
     slug: "marketing",
-    documentacao: "https://github.com/RenanCosta2/marketing-powerbi/blob/main/README.md",
+    repositorio: "https://github.com/RenanCosta2/marketing-powerbi/blob/main/README.md",
     externalLink: "https://app.powerbi.com/view?r=eyJrIjoiYjU5NmE5MGYtZWQ3Zi00NDkzLWE5YTEtODU1MDZlOWY5NTdjIiwidCI6ImJhZTkwYjYxLTg4OTItNDQyMC1hMTEyLTE0NTQ4MzBkYmJiOSJ9&pageName=134ed5756e9c2c0d7574",
   },
   // outros projetos...
