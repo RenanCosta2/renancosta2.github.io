@@ -24,7 +24,7 @@ export const projects: Project[] = [
       "Deve ser possível realizar a análise para uma única empresa ou uma combinação de empresas."
     ],
     tags: ["Power BI", "Python"],
-    slug: "dashboard-mercado-acoes",
+    slug: "mercado-acoes",
     repositorio: "https://github.com/RenanCosta2/mercado-acoes-powerbi/blob/main/README.md",
     externalLink: "https://app.powerbi.com/view?r=eyJrIjoiNGUwYTA0MDctMmE4NS00Y2MxLTkzODktYjVjMzZhOTViOTRjIiwidCI6ImJhZTkwYjYxLTg4OTItNDQyMC1hMTEyLTE0NTQ4MzBkYmJiOSJ9",
   },
@@ -43,7 +43,7 @@ export const projects: Project[] = [
       "Determinar o total e o percentual de funcionários elegíveis para promoção, com base na regra de 5 anos ou mais desde a última promoção (mesmo que esse indicador não seja exibido no Dashboard, ele deve ser calculado)."
     ],
     tags: ["Power BI"],
-    slug: "dashboard-rh",
+    slug: "rh",
     repositorio: "https://github.com/RenanCosta2/rh-powerbi/blob/main/README.md",
     externalLink: "https://app.powerbi.com/view?r=eyJrIjoiNzE1NTIyMzUtZDQ1OS00MzE4LTk0NTItZjhmNjJkMzlhNWQzIiwidCI6ImJhZTkwYjYxLTg4OTItNDQyMC1hMTEyLTE0NTQ4MzBkYmJiOSJ9",
   },
