@@ -393,3 +393,141 @@ nav {
   border: 2px solid #2e2e2e;
   box-shadow: 0 0 10px rgba(127, 90, 240, 0.2);
 }
+
+/* === Responsive Breakpoints === */
+
+@media (max-width: 1024px) {
+
+  main.container {
+    gap: 50px;
+    margin: 0px 30px;
+  }
+
+  .profile-container {
+    width: 230px;
+  }
+
+  .profile-img{
+    max-width: 150px;
+  }
+
+  .profile-role {
+  font-size: 0.95rem;
+}
+
+.profile-infos {
+  font-size: 0.75rem;
+}
+
+  .about-me__title, .resume-title, .project-detail-title {
+    font-size: 1.7rem;
+  }
+
+  .about-me__content, .resume-content{
+    font-size: 1rem;
+  }
+
+  .project {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .project-title {
+    font-size: 0.95rem;
+  }
+
+  .project-tags-item {
+    font-size: 0.65rem;
+  }
+
+}
+
+@media (max-width: 768px) {
+  main.container {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .profile-container {
+    position: relative;
+    width: 90%;
+    top: unset;
+    padding: 1rem;
+  }
+
+  .route-content {
+    width: 90%;
+  }
+
+  .about-me, .resume-container, .project-detail-container {
+    padding: 1.5rem;
+  }
+
+  .about-me__title, .resume-title, .project-detail-title {
+    font-size: 1.8rem;
+  }
+
+  .resume-content, .about-me__content {
+    font-size: 1rem;
+  }
+
+  .portfolio {
+    justify-content: center;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .project {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .project-title {
+    font-size: 0.95rem;
+  }
+
+  .project-tags-item {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-me__title, .resume-title, .project-detail-title {
+    font-size: 1.5rem;
+  }
+
+  .project {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .profile-img {
+    max-height: 150px;
+  }
+
+  nav {
+    font-size: 1rem;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .nav-item {
+    margin: 0 10px;
+  }
+
+  .project {
+    padding: 0.6rem;
+    border-radius: 12px;
+  }
+
+  .project-title {
+    font-size: 0.9rem;
+  }
+
+  .project-tags {
+    gap: 0.3rem;
+  }
+}
