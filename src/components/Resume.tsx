@@ -99,6 +99,42 @@ export function Resume() {
             <li className="resume-item">
               <strong>
                 <a 
+                href="https://mycourse.app/MKfHgQwGOX23EGXJL" 
+                target="_blank"
+                rel="noopener noreferrer"
+                >  
+                  Microsoft Power BI Para Business Intelligence e Data Science
+                </a> | Maio 2025
+              </strong>
+              <br />Data Science Academy
+            </li>
+            <li className="resume-item">
+              <strong>
+                <a 
+                href="https://www.coursera.org/account/accomplishments/verify/OS48UHNZTD1D" 
+                target="_blank"
+                rel="noopener noreferrer"
+                >  
+                  Analyze Data to Answer Questions
+                </a> | Maio 2025
+              </strong>
+              <br />Google
+            </li>
+            <li className="resume-item">
+              <strong>
+                <a 
+                href="https://www.coursera.org/account/accomplishments/verify/UZLXBE1OYESN" 
+                target="_blank"
+                rel="noopener noreferrer"
+                >  
+                  Process Data from Dirty to Clean
+                </a> | Maio 2025
+              </strong>
+              <br />Google
+            </li>
+            <li className="resume-item">
+              <strong>
+                <a 
                 href="https://www.coursera.org/account/accomplishments/verify/IXEORF6IZM23" 
                 target="_blank"
                 rel="noopener noreferrer"
