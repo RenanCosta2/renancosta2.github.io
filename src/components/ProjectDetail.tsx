@@ -17,11 +17,11 @@ const ProjectDetail = () => {
       <h2 className='project-detail-objective'>Objetivo</h2>
       <p className='project-details-objective-description'>{project.objetivo}</p>
 
-      {/* Requisitos */}
-      <h2 className='project-detail-requirements'>Requisitos</h2>
-      {project.requisitos?.length ? (
+      {/* Principais Métricas Analisadas */}
+      <h2 className='project-detail-requirements'>Principais Métricas Analisadas</h2>
+      {project.metricas?.length ? (
         <ul className='project-detail-requirements-list'>
-          {project.requisitos.map((req, index) => (
+          {project.metricas.map((req, index) => (
             <li key={index} className='project-detail-requirements-item'>{req}</li>
           ))}
         </ul>
