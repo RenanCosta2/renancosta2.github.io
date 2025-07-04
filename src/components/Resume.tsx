@@ -56,7 +56,7 @@ export function Resume() {
             <li className="resume-item">
               <strong>Linguagens e Ferramentas de Análise:</strong>
               <br />
-              Python (Pandas, NumPy, Matplotlib, Scikit-learn), SQL
+              Python (Pandas, NumPy, Matplotlib, Scikit-learn), R, SQL
             </li>
             <li className="resume-item">
               <strong>Visualização e Apresentação de Dados:</strong>
@@ -99,6 +99,18 @@ export function Resume() {
             <li className="resume-item">
               <strong>
                 <a 
+                href="https://www.coursera.org/account/accomplishments/specialization/ZIY8JEJSOLG7" 
+                target="_blank"
+                rel="noopener noreferrer"
+                >  
+                  Google Data Analytics
+                </a> | Junho 2025
+              </strong>
+              <br />Google
+            </li>
+            <li className="resume-item">
+              <strong>
+                <a 
                 href="https://mycourse.app/MKfHgQwGOX23EGXJL" 
                 target="_blank"
                 rel="noopener noreferrer"
@@ -107,54 +119,6 @@ export function Resume() {
                 </a> | Maio 2025
               </strong>
               <br />Data Science Academy
-            </li>
-            <li className="resume-item">
-              <strong>
-                <a 
-                href="https://www.coursera.org/account/accomplishments/verify/OS48UHNZTD1D" 
-                target="_blank"
-                rel="noopener noreferrer"
-                >  
-                  Analyze Data to Answer Questions
-                </a> | Maio 2025
-              </strong>
-              <br />Google
-            </li>
-            <li className="resume-item">
-              <strong>
-                <a 
-                href="https://www.coursera.org/account/accomplishments/verify/UZLXBE1OYESN" 
-                target="_blank"
-                rel="noopener noreferrer"
-                >  
-                  Process Data from Dirty to Clean
-                </a> | Maio 2025
-              </strong>
-              <br />Google
-            </li>
-            <li className="resume-item">
-              <strong>
-                <a 
-                href="https://www.coursera.org/account/accomplishments/verify/IXEORF6IZM23" 
-                target="_blank"
-                rel="noopener noreferrer"
-                >
-                  Prepare Data for Exploration
-                </a> | Abril 2025
-              </strong>
-              <br />Google
-            </li>
-            <li className="resume-item">
-              <strong>
-                <a 
-                href="https://www.coursera.org/account/accomplishments/verify/4YGCOV60XD2K" 
-                target="_blank"
-                rel="noopener noreferrer"
-                >
-                  Ask Questions to Make Data-Driven Decisions
-                </a> | Abril 2025
-              </strong>
-              <br />Google
             </li>
             <li className="resume-item">
               <strong>
