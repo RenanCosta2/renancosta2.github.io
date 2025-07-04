@@ -13,6 +13,21 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    imagem: "/images/projects/bike-share.png",
+    titulo: "Estudo de Caso: Análise do Sistema de Compartilhamento de Bicicletas",
+    objetivo: "Esse projeto é um estudo de caso para conclusão do curso de Certificado Profissional de Análise de Dados do Google. No cenário deste estudo de caso, eu sou um Analista de Dados Júnior trabalhando em uma equipe de analistas de marketing na Cyclistic, uma empresa de compartilhamento de bicicletas em Chicago. O objetivo do projeto foi realizar uma análise dos dados para identificar as principais diferenças nos padrões de uso das bicicletas Cyclistic entre ciclistas casuais e membros anuais.",
+    metricas: [
+      "A duração média de viagem dos ciclistas casuais (~ 19 minutos) é relativamente maior que dos membros (~ 12 minutos).",
+      "A frequência de uso do serviço é maior no período entre junho e outubro, o que coincide com os meses mais quentes e agradáveis em Chicago. A duração média das viagens apresentam um comportamento similar.",
+      "O comportamento semanal dos usuários é oposto: enquanto os membros tendem a usar o serviço com maior frequência nos dias úteis, os usuários casuais são predominantemente mais ativos nos fins de semana.",
+      "O horário de pico de ambos os usuários é por volta de 14 até 18 horas. Porém, os membros também realizam um volume significativo de viagens no início da manhã, às 8:00."
+    ],
+    tags: ["Power BI", "R", "SQL", "BigQuery"],
+    slug: "bike-share",
+    repositorio: "https://github.com/RenanCosta2/bike-share-analysis",
+    externalLink: "https://app.powerbi.com/view?r=eyJrIjoiMWU4MmQ5Y2EtYjU2Mi00Y2RmLTkzYzUtNDEzMTZjZjk1NTNiIiwidCI6ImJhZTkwYjYxLTg4OTItNDQyMC1hMTEyLTE0NTQ4MzBkYmJiOSJ9",
+  },
+  {
     imagem: "/images/projects/mercado-acoes.png",
     titulo: "Análise Histórica de Ações (2020–2025): IBM, Microsoft, Oracle, Tesla e Walmart",
     objetivo: "Dashboard em Power BI para análise estratégica do comportamento do mercado de ações de cinco empresas selecionadas (IBM, Microsoft, Oracle, Tesla e Walmart), permitindo análises detalhadas ao longo do tempo. Os dados analisados abrangem o período de 25 de abril de 2020 até 25 de abril de 2025, garantindo uma visão histórica consistente dos últimos cinco anos.",
